@@ -1,8 +1,9 @@
-## 🤖 AI Prompt Journal
+## AI Prompt Journal
 
 ### Prompt 1: Understanding Node.js
 **Prompt Used:**
 ```
+
 "Explain what Node.js is in simple terms, including its main use cases 
 and why it's popular for backend development. Include one real-world 
 example of a company using Node.js."
