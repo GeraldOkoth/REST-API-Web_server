@@ -615,11 +615,11 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 Have questions or feedback? Feel free to:
 - Open an issue in this repository
-- Reach out via email: [your.email@example.com]
-- Connect on [LinkedIn/Twitter/GitHub]
+- Reach out via email: [okothgerald449@gmail.com](okothgerald449@gmail.com)
+- Connect on [Twitter](https://x.com/gerald_okothKE) [LinkedIn](https://linkedin.com/in/geraldokoth)
 
 ---
 
 **⭐ If this guide helped you learn Node.js, please star the repository!**
 
-Made with ❤️ by aspiring developers, for aspiring developers.
+Made with ❤️ by Gerald Okoth, for aspiring developers.
