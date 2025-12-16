@@ -1,0 +1,271 @@
+# Node.js .gitignore
+# Created for Node.js Learning Guide Project
+
+# ==================================
+# Dependencies
+# ==================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# ==================================
+# Package Manager Lock Files
+# ==================================
+# Uncomment the lock file you want to exclude
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# ==================================
+# Environment Variables
+# ==================================
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+.env*.local
+
+# ==================================
+# Operating System Files
+# ==================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# ==================================
+# IDE and Editor Files
+# ==================================
+# Visual Studio Code
+.vscode/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+.history/
+
+# JetBrains IDEs (WebStorm, IntelliJ, etc.)
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+.idea_modules/
+
+# Sublime Text
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+*.sublime-workspace
+*.sublime-project
+sftp-config.json
+Package Control.last-run
+Package Control.ca-list
+Package Control.ca-bundle
+Package Control.system-ca-bundle
+Package Control.cache/
+Package Control.ca-certs/
+Package Control.merged-ca-bundle
+Package Control.user-ca-bundle
+oscrypto-ca-bundle.crt
+bh_unicode_properties.cache
+
+# Vim
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]s[a-rt-v][a-z]
+[._]ss[a-gi-z]
+[._]sw[a-p]
+Session.vim
+Sessionx.vim
+.netrwhist
+*~
+tags
+[._]*.un~
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# ==================================
+# Logs
+# ==================================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# ==================================
+# Testing
+# ==================================
+coverage/
+*.lcov
+.nyc_output/
+lib-cov
+.grunt
+.lock-wscript
+.tsbuildinfo
+.eslintcache
+.stylelintcache
+
+# ==================================
+# Build Output
+# ==================================
+dist/
+build/
+out/
+.next/
+.nuxt/
+.cache/
+.parcel-cache/
+.vuepress/dist
+.docusaurus
+.serverless/
+.fusebox/
+.dynamodb/
+.tern-port
+.vscode-test
+*.tgz
+
+# ==================================
+# Temporary Files
+# ==================================
+tmp/
+temp/
+*.tmp
+*.temp
+*.swp
+*.swo
+*.bak
+*.old
+
+# ==================================
+# Runtime Data
+# ==================================
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# ==================================
+# Optional npm/yarn cache
+# ==================================
+.npm
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
+# ==================================
+# TypeScript (if you expand to TS later)
+# ==================================
+*.tsbuildinfo
+dist-types/
+
+# ==================================
+# Cloud & Deployment
+# ==================================
+.vercel
+.netlify
+.firebase/
+.amplify/
+
+# ==================================
+# Documentation (optional)
+# ==================================
+# Uncomment if you don't want generated docs in repo
+# docs/api/
+# docs/_build/
+
+# ==================================
+# Project Specific
+# ==================================
+# Add any project-specific files or folders here
+# uploads/
+# public/uploads/
+# private/
+
+# ==================================
+# Backup Files
+# ==================================
+*.backup
+*.bkp
+*.orig
+
+# ==================================
+# Certificate Files (IMPORTANT!)
+# ==================================
+*.pem
+*.key
+*.cert
+*.crt
+*.p12
+*.pfx
+
+# ==================================
+# Database Files
+# ==================================
+*.sqlite
+*.sqlite3
+*.db
+*.db-shm
+*.db-wal
+
+# ==================================
+# Miscellaneous
+# ==================================
+.sass-cache/
+*.css.map
+*.sass.map
+*.scss.map
