@@ -8,7 +8,7 @@
 
 ---
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [Overview](#overview)
 - [Technology Choice & Justification](#technology-choice--justification)
@@ -26,7 +26,7 @@
 
 ---
 
-## 🎯 Overview
+## Overview
 
 ### What is Node.js?
 
@@ -41,28 +41,17 @@
 ### Use Cases
 
 Node.js is typically used for:
-- 🌐 **Web servers and REST APIs**: Building backend services that handle HTTP requests
-- ⚡ **Real-time applications**: Chat applications, live streaming, collaborative tools
-- 🔧 **Microservices**: Building small, independent services that work together
-- 💻 **Command-line tools**: Creating developer utilities and automation scripts
-- 🌍 **IoT applications**: Handling data from Internet of Things devices
-- 🖥️ **Server-side rendering**: Rendering React, Vue, or Angular applications on the server
+- **Web servers and REST APIs**: Building backend services that handle HTTP requests
+- **Real-time applications**: Chat applications, live streaming, collaborative tools
+- **Microservices**: Building small, independent services that work together
+- **Command-line tools**: Creating developer utilities and automation scripts
+- **IoT applications**: Handling data from Internet of Things devices
+- **Server-side rendering**: Rendering React, Vue, or Angular applications on the server
 
-### Real-World Example
 
-**Netflix** uses Node.js for their user interface, serving over 200 million subscribers worldwide. They migrated from Java to Node.js to achieve:
-- ✅ 70% reduction in startup time
-- ✅ Better developer productivity
-- ✅ Faster page load times for users
-- ✅ More efficient server resource utilization
-
----
-
-## 🚀 Technology Choice & Justification
+## Technology Choice & Justification
 
 ### Why Node.js?
-
-I selected Node.js because:
 
 - **Industry Relevance**: Powers millions of web applications including Netflix, PayPal, LinkedIn, and Uber
 - **Beginner-Friendly**: Uses JavaScript, which many developers already know from front-end development
@@ -73,13 +62,13 @@ I selected Node.js because:
 
 ---
 
-## 🎨 What You'll Build
+## What You'll Build
 
 Build a **simple REST API web server** that:
-- ✅ Responds to HTTP requests
-- ✅ Serves different routes (endpoints)
-- ✅ Returns JSON data
-- ✅ Demonstrates core Node.js concepts (modules, async operations, HTTP handling)
+- Responds to HTTP requests
+- Serves different routes (endpoints)
+- Returns JSON data
+- Demonstrates core Node.js concepts (modules, async operations, HTTP handling)
 
 **Final Result Preview:**
 
@@ -99,7 +88,7 @@ GET http://localhost:3000/users
 
 ---
 
-## ⚡ Quick Start
+## Quick Start & Set up
 
 ```bash
 # 1. Clone the repository
@@ -118,14 +107,14 @@ node server.js
 
 ---
 
-## 💻 System Requirements
+## System Requirements
 
 ### Prerequisites Checklist
 
 **Operating System:**
-- ✅ Windows 10/11 (64-bit)
-- ✅ macOS 10.15 or later
-- ✅ Linux (Ubuntu 20.04+, Debian, Fedora, etc.)
+- Windows 10/11 (64-bit)
+- macOS 10.15 or later
+- Linux (Ubuntu 20.04+, Debian, Fedora, etc.)
 
 **Hardware Requirements:**
 - **Minimum RAM**: 512 MB (2 GB recommended)
@@ -142,7 +131,7 @@ node server.js
 
 ---
 
-## 📦 Installation & Setup
+## Installation & Setup
 
 ### Step 1: Download Node.js
 
@@ -154,9 +143,9 @@ node server.js
    - **Current**: Latest features (v23.x)
 3. Download the **LTS version** for your operating system
 4. Run the installer and follow the installation wizard
-5. ✅ Accept the license agreement
-6. ✅ Keep default installation settings
-7. ✅ Ensure "Add to PATH" is checked (usually default)
+5. Accept the license agreement
+6. Keep default installation settings
+7. Ensure "Add to PATH" is checked (usually default)
 
 **Option B: Using Package Managers**
 
@@ -363,15 +352,15 @@ Open your web browser or use curl:
 6. **Server Start**: `server.listen()` - Starts the server on the specified port and hostname
 
 **Key Concepts Demonstrated:**
-- ✅ Creating an HTTP server
-- ✅ Handling routes
-- ✅ Sending JSON responses
-- ✅ Basic error handling (404 responses)
-- ✅ Using Node.js modules
+- Creating an HTTP server
+- Handling routes
+- Sending JSON responses
+- Basic error handling (404 responses)
+- Using Node.js modules
 
 ---
 
-## 🐛 Common Issues & Fixes
+## Common Issues & Fixes
 
 ### Issue 1: "node: command not found"
 
@@ -525,7 +514,7 @@ Error: listen EACCES: permission denied 0.0.0.0:80
 
 ---
 
-## 📚 References & Resources
+## References & Resources
 
 ### Official Documentation
 - **[Node.js Official Documentation](https://nodejs.org/docs/latest/api/)** - Comprehensive reference for all Node.js APIs
@@ -564,14 +553,14 @@ Error: listen EACCES: permission denied 0.0.0.0:80
 
 ---
 
-## 🎓 Next Steps
+## Next Steps
 
 Congratulations! You've successfully:
-- ✅ Installed Node.js and npm
-- ✅ Created your first HTTP server
-- ✅ Built a REST API with multiple endpoints
-- ✅ Handled different routes and errors
-- ✅ Learned to debug common issues
+- Installed Node.js and npm
+- Created your first HTTP server
+- Built a REST API with multiple endpoints
+- Handled different routes and errors
+- Learned to debug common issues
 
 ### Recommended Learning Path:
 
@@ -585,7 +574,7 @@ Congratulations! You've successfully:
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Found an error or have suggestions? Contributions are welcome!
 
@@ -597,13 +586,7 @@ Found an error or have suggestions? Contributions are welcome!
 
 ---
 
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Created as part of a comprehensive learning toolkit project
 - AI Assistant: Claude by Anthropic
@@ -611,7 +594,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-## 📬 Contact
+## Contact
 
 Have questions or feedback? Feel free to:
 - Open an issue in this repository
