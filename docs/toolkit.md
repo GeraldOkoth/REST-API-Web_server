@@ -220,7 +220,7 @@ Or simply create it using your code editor.
 
 ---
 
-## 🔧 Minimal Working Example
+## Minimal Working Example
 
 ### The Code
 
@@ -359,6 +359,8 @@ Open your web browser or use curl:
 - Using Node.js modules
 
 ---
+## AI Prompt Journal
+See `docs/ai-prompt-journal.md` for full prompts
 
 ## Common Issues & Fixes
 
